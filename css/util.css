@@ -1,0 +1,13 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    height: 4vh;
+    width: 4vw;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
