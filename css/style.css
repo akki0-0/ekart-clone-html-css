@@ -20,7 +20,7 @@ nav {
 }
 
 .logo img {
-    width: 50px;
+    height: 9vh;
     padding: 0 20px;
 }
 
@@ -49,7 +49,7 @@ nav ul li a:hover {
 }
 
 .search {
-    display: flex;
+    display: inline;
     align-items: center;
 }
 
@@ -61,11 +61,10 @@ nav ul li a:hover {
     padding: 0 10px;
 }
 
-.search button{
+.search-btn{
     position: relative;
-    left: -60px;
+    left: -75px;
     font-family: monospace;
-    /* background-color: cornsilk; */
     background:radial-gradient(orange,yellow);
 }
 
@@ -76,6 +75,25 @@ nav ul li a:hover {
 .container {
     background-color: darkgrey;
     min-height: calc(100vh - 10vh - 10vh);
+}
+
+.card{
+    max-width: 90vw;
+    background-color: beige;
+    margin: auto;
+}
+
+.card h2{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.card-item{
+    height: auto;
+    width: 13vw;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px 20px;
 }
 
 footer {

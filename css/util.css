@@ -6,8 +6,12 @@
 
 .btn{
     height: 4vh;
-    width: 4vw;
+    width: 4rem;
     border-radius: 7px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
 }
